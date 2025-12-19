@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f7;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 280px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  color: #5a5ae6;
+}
+
+.card p {
+  font-size: 13px;
+  color: #555555;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.social button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #e6e6ff;
+}
+
+.primary {
+  width: 100%;
+  padding: 12px;
+  background-color: #5a5ae6;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
