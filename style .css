@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #eef2f7;
+  background: #eef2f7;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -9,44 +9,62 @@ body {
   height: 100vh;
 }
 
-.card {
-  background-color: #ffffff;
-  width: 280px;
-  padding: 25px;
+.mobile {
+  width: 300px;
+  background: white;
   border-radius: 20px;
+  padding: 30px 20px;
   text-align: center;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-.card h2 {
+.mobile h2 {
   color: #5a5ae6;
+  margin-bottom: 10px;
 }
 
-.card p {
+.mobile p {
   font-size: 13px;
-  color: #555555;
+  color: #555;
 }
 
 .social {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
-.social button {
+.icon {
   width: 40px;
   height: 40px;
+  background: #e6e6ff;
   border-radius: 50%;
-  border: none;
-  background-color: #e6e6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
 
-.primary {
+.or {
+  margin: 10px 0;
+}
+
+button {
   width: 100%;
   padding: 12px;
-  background-color: #5a5ae6;
+  background: #5a5ae6;
   color: white;
   border: none;
   border-radius: 12px;
+  font-size: 14px;
+}
+
+.bottom {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.bottom span {
+  color: #5a5ae6;
 }
